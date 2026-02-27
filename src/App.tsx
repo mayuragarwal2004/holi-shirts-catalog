@@ -103,7 +103,7 @@ function App() {
                     </tr>
                   </thead>
                   <tbody className="text-slate-200">
-                    {['18','20','22','24','26','28','30','32','34'].map((s) => (
+                    {['18','20','22','26','28','30','32','34'].map((s) => (
                       <tr key={s} className="border-t border-white/5">
                         <td className="py-3">{s}</td>
                       </tr>
