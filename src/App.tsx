@@ -38,7 +38,7 @@ function App() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="inline-block px-4 py-1.5 mb-4 rounded-full border border-white/10 bg-white/5 backdrop-blur-md text-sm font-medium tracking-wide uppercase text-slate-300"
           >
-            Exclusive Print Collection
+            Exclusive Polyester T-Shirt Collection
           </motion.div>
 
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-extrabold tracking-tighter">
@@ -71,6 +71,7 @@ function App() {
           <h2 className="text-3xl md:text-5xl font-bold font-serif italic text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-accent-400">
             The Collection
           </h2>
+          <p className="text-slate-300 text-base md:text-lg mt-2 font-bold">[🧵 Polyester T-Shirts]</p>
           <div className="h-1 w-24 bg-gradient-to-r from-primary-500 to-accent-500 mt-4 rounded-full" />
         </div>
 
@@ -156,7 +157,7 @@ function App() {
         </div>
 
         <p className="font-medium tracking-wide">
-          © 2026 Holi Designs. Made with colors.
+          © 2026 Holi Designs. Made with colors🎨
         </p>
 
         {/* contact info added per request */}
