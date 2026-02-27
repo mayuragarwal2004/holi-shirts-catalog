@@ -82,8 +82,8 @@ function App() {
           />
         </div>
 
-        <div className="mt-8 text-center text-slate-400 text-sm md:text-base max-w-4xl mx-auto">
-          <p className="italic">
+        <div className="mt-8 text-center text-slate-400 text-sm md:text-base max-w-3xl mx-auto px-4">
+          <p className="italic break-words">
             Note: Mockups shown for reference only. Final product will be polyester t-shirts with top-quality printing assured.
           </p>
         </div>
