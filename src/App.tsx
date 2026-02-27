@@ -79,6 +79,16 @@ function App() {
         <p className="font-medium tracking-wide">
           © 2026 Holi Designs. Made with colors.
         </p>
+
+        {/* contact info added per request */}
+        <div className="mt-6 space-y-1 text-slate-400">
+          <p className="font-semibold">Reach Us Here:</p>
+          <p>Sagar Agarwal</p>
+          <p>+91 97307 99888</p>
+          <p className="mt-2 italic">
+            Before someone hits you with a kakdi balloon and steals your size… DM now! 😁💥
+          </p>
+        </div>
       </footer>
 
       <Lightbox
@@ -87,6 +97,21 @@ function App() {
         onClose={() => setLightboxIndex(null)}
         onNavigate={(index) => setLightboxIndex(index)}
       />
+
+      {/* WhatsApp floating icon */}
+      <a
+        href="https://wa.me/919730799888"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-4 right-4 z-50 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition-colors"
+        aria-label="Chat on WhatsApp"
+      >
+        <img
+          src="/WhatsApp.png"
+          alt="WhatsApp"
+          className="w-8 h-8"
+        />
+      </a>
     </div>
   );
 }
